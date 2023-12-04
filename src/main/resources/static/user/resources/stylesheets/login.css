@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+}
+input{
+    border:none;
+    background-color: unset;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    width: 30rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.text_post{
+    padding-left: 1rem;
+}
+.text1,
+.text2{
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.context{
+    width: 30rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.context1,
+.context2{
+    width: 20rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.2rem;
+    line-height: 2rem;
+}
+.context1{
+    margin-bottom: 0.7rem;
+}
+.context1:hover,
+.context2:hover{
+    border: 0.2rem solid #d2d0d0;
+}
+.button{
+    width: 20.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border: 0.0625rem solid #d2d0d0;
+    background-color: #d2d0d0;
+    border-radius: 0.2rem;
+    height: 2rem;
+}
+.button:hover{
+    font-weight: bold;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.find1,
+.find2{
+    margin-top:1rem;
+    padding-right:0.7rem;
+    padding-left:0.7rem;
+    border-right: 0.0625rem solid #000000;
+}
+.find3{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    margin-top:1rem;
+}
+.find1:hover,
+.find2:hover,
+.find3:hover{
+    font-weight: bold;
+}

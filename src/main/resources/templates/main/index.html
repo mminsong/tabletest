@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>명함 목록</title>
+    <link rel="stylesheet" href="/main/resources/stylesheets/index.css"/>
+    <script src="https://kit.fontawesome.com/7f0b80e413.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="main">
+    <div class="logoutmain">
+        <div class="user" th:if="${session.loginVo1 != null}" th:text="${session.loginVo1.getUserName()+'님'}"></div>
+        <a class="mypage" th:href="@{/main/mypage}">마이페이지</a>
+        <a class="logout" th:href="@{/user/login}">로그아웃</a>
+    </div>
+    <div class="addmain">
+        <div class="list">
+            <i class="fa-solid fa-list-ul"></i>
+            <div class="addtext">명함 목록</div>
+        </div>
+        <form class="fullmain">
+            <select>
+                <option value="none">선택</option>
+                <option>사용자이름</option>
+                <option>회사이름</option>
+                <option>직책</option>
+                <option>이름</option>
+                <option>전화번호</option>
+                <option>이메일</option>
+            </select>
+        </form>
+        <div class="findmain">
+            <form class="findbtumain">
+                <input class="find" type="text" name="find" placeholder="검색해주세요.">
+                <input class="search" type="submit" name="search" value="검색">
+            </form>
+        </div>
+        <form method="post">
+            <a th:href="@{/main/add}" class="addbtu"><i class="fa-solid fa-plus"></i></a>
+        </form>
+    </div>
+    <table>
+        <thead>
+        <tr class="addressmain">
+            <th>회사이름</th>
+            <th>직책</th>
+            <th>이름</th>
+            <th>전화번호</th>
+            <th>이메일</th>
+            <th>주소</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="businessEntity : ${businessEntities}">
+            <td th:text="${businessEntity.getCompanyName()}"></td>
+            <td th:text="${businessEntity.getLevel()}"></td>
+            <td th:text="${businessEntity.getName()}"></td>
+            <td th:text="${businessEntity.getNum()}"></td>
+            <td th:text="${businessEntity.getEmail()}"></td>
+            <td th:text="${businessEntity.getAddress()}"></td>
+        </tr>
+
+        </tbody>
+    </table>
+    <div class="numbermain">
+        <form>
+            <input class="one" type="submit" value="1">
+            <input class="two" type="submit" value="2">
+            <input class="three" type="submit" value="3">
+            <input class="four" type="submit" value="4">
+            <input class="five" type="submit" value="5">
+            <input class="right" type="submit" value="›">
+            <input class="rightright" type="submit" value="»">
+        </form>
+    </div>
+</div>
+</body>
+</html>

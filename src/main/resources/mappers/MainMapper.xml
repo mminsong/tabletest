@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.tabletest.mappers.IMainMapper">
+    <insert id="insertBusiness"
+            parameterType="com.example.tabletest.entities.BusinessEntity">
+        INSERT INTO `test12`.`businesscard`(`user_name`,`company_name`,`name`,`level`,`num`,`email`,`address`)
+        VALUES (#{userName},#{companyName},#{name},#{level},#{num},#{email}, #{address})
+    </insert>
+
+    <select id="selectBusiness"
+            resultType="com.example.tabletest.entities.BusinessEntity">
+        SELECT `index`        AS `index`,
+               `user_name`    AS `userName`,
+               `company_name` AS `companyName`,
+               `name`         AS `name`,
+               `level`        AS `level`,
+               `num`          AS `num`,
+               `email`        AS `email`,
+               `address`      AS `address`
+        FROM `test12`.`businesscard`
+    </select>
+
+    <select id="selectMypage"
+            resultType="com.example.tabletest.entities.BusinessEntity">
+        SELECT `index`        AS `index`,
+               `user_name`    AS `userName`,
+               `company_name` AS `companyName`,
+               `name`         AS `name`,
+               `level`        AS `level`,
+               `num`          AS `num`,
+               `email`        AS `email`,
+               `address`      AS `address`
+        FROM test12.businesscard
+    </select>
+</mapper>

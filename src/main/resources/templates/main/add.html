@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/main/resources/stylesheets/add.css"/>
+    <script src="https://kit.fontawesome.com/7f0b80e413.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<form method="post" class="main">
+    <div class="listaddtext">
+        <i class="fa-solid fa-address-card"></i>
+        <div class="add">명함 추가</div>
+    </div>
+    <div class="usermain">
+        <div class="usertext">사용자이름</div>
+        <input type="text" name="userName" placeholder="사용자이름을 입력해주세요.">
+    </div>
+    <div class="conmain">
+        <div class="context">회사이름</div>
+        <input type="text" name="companyName" placeholder="회사이름을 입력해주세요.">
+    </div>
+    <div class="namemain">
+        <div class="nametext">이름</div>
+        <input type="text" name="Name" placeholder="이름을 입력해주세요">
+    </div>
+    <div class="levelmain">
+        <div class="leveltext">직책</div>
+        <input type="text" name="level" placeholder="직책을 입력해주세요.">
+    </div>
+    <div class="numbermain">
+        <div class="numbertext">휴대폰 번호</div>
+        <input type="text" name="num" placeholder="휴대폰 번호를 입력해주세요.">
+    </div>
+    <div class="emailmain">
+        <div class="emailtext">이메일</div>
+        <input type="email" name="email" placeholder="이메일을 입력해주세요.">
+    </div>
+    <div class="addressmain">
+        <div class="addresstext">주소</div>
+        <input type="text" name="address" placeholder="주소를 입력해주세요.">
+    </div>
+    <div class="last">
+        <input class="addbtutext" type="submit" value="추가하기">
+        <a class="pre" href="/main/index">이전</a>
+    </div>
+
+</form>
+</body>
+</html>

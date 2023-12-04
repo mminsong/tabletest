@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="/user/resources/stylesheets/join.css">
+  <script src="https://kit.fontawesome.com/7f0b80e413.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="box">
+  <div class="title">
+    <i class="fa-solid fa-feather-pointed"></i>
+    <div class="text_title">회원가입</div>
+  </div>
+  <form method="post" class="main">
+    <input class="name" id="name" name="userName" type="text" placeholder="이름을 입력하세요.">
+    <input class="id" id="id" name="email" type="email" placeholder="아이디(email)을 입력하세요.">
+    <input class="password" id="password" name="password" type="password" placeholder="비밀번호를 입력하세요.">
+    <input class="phone_number" id="phoneNumber" name="phoneNumber" type="text" placeholder="전화번호를 입력하세요.">
+    <input class="birth" id="birth" name="birth" type="date">
+    <input class="join" type="submit" value="회원가입하기">
+    <div class="login"><a th:href="@{/user/login}">이전</a></div>
+
+  </form>
+
+</div>
+</body>
+</html>

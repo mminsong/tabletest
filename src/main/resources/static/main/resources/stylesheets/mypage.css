@@ -1,0 +1,175 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+input {
+    border: none;
+    background-color: unset;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 50rem;
+    height: 40rem;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+.logoutmain{
+    display: flex;
+    height: 1rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.user{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    cursor: default;
+}
+.logout,
+.mypage{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.logout:hover,
+.mypage:hover,
+.addbtu:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.addmain{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    width: 30%;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 2rem;
+    align-items: center;
+}
+.addtext{
+    margin-left: 0.5rem;
+}
+
+.fullmain {
+    width: 10%;
+    height: 2rem;
+    margin-left: 5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
+    display: flex;
+
+}
+
+
+.findmain{
+    width: 30%;
+    height: 2rem;
+    display: flex;
+}
+
+.findbtumain{
+    display: flex;
+    padding-left: 0.5rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.2rem;
+}
+.search{
+    border-left: 0.0625rem solid #d2d0d0;
+    cursor: pointer;
+    color: black;
+}
+
+.findrow{
+    width: 0.0500rem;
+    height: 2rem;
+    background-color: black;
+    margin-left: 6rem;
+}
+
+
+.addbtu{
+    width: 30%;
+    line-height: 2rem;
+    margin-left: 5rem;
+    border-radius: 0.2rem;
+}
+
+table{
+    width: 50rem;
+    border-collapse: collapse;
+    text-align: center;
+}
+.addressmain{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+th{
+    border-top: 0.2rem solid black;
+    border-bottom: 0.0625rem solid black;
+    padding: 0.5rem;
+}
+
+td{
+    padding: 0.5rem;
+    border-bottom: 0.0625rem solid #d2d2d2;
+}
+
+.delete{
+    color: red;
+    border: 0.0625rem solid red;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+
+.modi{
+    color: blue;
+    border: 0.0625rem solid blue;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+
+.numbermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.right,
+.rightright{
+    border: 0.0625rem solid #d2d2d2;
+    border-radius: 0.2rem;
+}
+
+
+.pre{
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #d2d0d0;
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+input{
+    border:none;
+    background-color: unset;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    width: 30rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    position: relative;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.text_title{
+    margin-left: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name,
+.id,
+.password,
+.phone_number,
+.birth{
+    width: 20rem;
+    line-height: 2rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.2rem;
+    margin-bottom: 0.7rem;
+}
+.name:hover,
+.id:hover,
+.password:hover,
+.phone_number:hover,
+.birth:hover{
+    border:0.2rem solid #d2d0d0;
+}
+.join,
+.login{
+    width:20.2rem;
+    line-height: 2rem;
+    border: 0.0625rem solid #d2d0d0;
+    border-radius: 0.2rem;
+    background-color: #d2d0d0;
+}
+.join{
+    margin-bottom: 0.7rem;
+}
+.login{
+    text-align: center;
+    font-size: smaller;
+}
+.join:hover,
+.login:hover{
+    font-weight: bold;
+}

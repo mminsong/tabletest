@@ -1,0 +1,118 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+input {
+    border: none;
+    background-color: unset;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 50rem;
+    height: 40rem;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listaddtext{
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+}
+.add{
+    margin-left: 0.5rem;
+}
+.conmain,
+.usermain,
+.namemain,
+.levelmain,
+.numbermain,
+.emailmain,
+.addressmain{
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.context{
+    margin-right: 5rem;
+}
+
+input{
+    width: 18rem;
+    height: 2.3rem;
+    background-color: white;
+    border: 0.0625rem solid #bebebe;
+    border-radius: 0.3rem;
+    padding-left: 0.8rem;
+}
+.usertext{
+    margin-right: 4rem;
+}
+.nametext,
+.leveltext,
+.addresstext{
+    margin-right: 7rem;
+}
+
+.numbertext{
+    margin-right: 3.6rem;
+}
+.emailtext{
+    margin-right: 6rem;
+}
+
+
+.addresstext{
+    margin-right: 7rem;
+}
+.addressimg{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.addresstextbtu{
+    margin-top: 0.5rem;
+}
+
+.addbtu
+{
+    width: 20rem;
+    height: 3rem;
+    background-color: #ececec;
+    border-radius: 0.3rem;
+    border: 0.0625rem solid #bebebe;
+    margin-top: 1rem;
+    text-align: center;
+}
+.last{
+    width: 20rem;
+    height: 2rem;
+}
+.addbtutext{
+    width: 50%;
+    margin-top: 0.8rem;
+}
+.pre{
+    width: 50%;
+    border: 0.0625rem solid #d2d0d0;
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+}

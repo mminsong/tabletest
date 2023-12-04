@@ -1,0 +1,166 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+input {
+    border: none;
+    background-color: unset;
+    outline: none;
+}
+.main{
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.imgmain{
+    width: 30rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgdiscord{
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+.discordtext{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.logmain{
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+}
+form{
+    width: 30rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #c4c4c4;
+}
+.pass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #c4c4c4;
+    margin-top: 0.5rem;
+}
+input{
+    width: 20rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+}
+.imglog{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #c4c4c4;
+}
+.logrow{
+    width: 0.0500rem;
+    height: 3rem;
+    background-color: #c4c4c4;
+}
+.imgpass{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #c4c4c4;
+}
+.passrow{
+    width: 0.0500rem;
+    height: 3rem;
+    background-color: #c4c4c4;
+}
+.passfind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #c4c4c4;
+    margin-top: 0.5rem;
+}
+.namemain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #c4c4c4;
+    margin-top: 0.5rem;
+}
+.imgname{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #c4c4c4;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #c4c4c4;
+    margin-top: 0.5rem;
+}
+.imgnumber{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #c4c4c4;
+}
+.logbtu{
+    width: 25rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: blue;
+    color: white;
+}
+
+.rowmain{
+    width: 30rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:1rem;
+}
+.row{
+    width: 24rem;
+    height: 0.0500rem;
+    background-color: #c4c4c4;
+    margin-bottom: 1.5rem;
+}
+
+.eee{
+    width: 25rem;
+    height: 3rem;
+    border: 0.0625rem solid #c4c4c4;
+    background-color: blue;
+    margin-right: 1rem;
+    color: white;
+}
+.C{
+    margin-top: 0.5rem;
+}
+.jointext{
+    font-weight: bold;
+    margin-left: 2.5rem;
+}
